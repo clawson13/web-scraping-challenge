@@ -21,7 +21,7 @@
   
   <main>
     <div class="row" id="craiglist-listings">
-      <div class="col-sm-12">
+      <div class="col-md-12 col-sm-12 col-xs-12">
         <h2 class="heading">Lastest Mars News</h2>
         <h4 class="heading" style="margin-bottom: 0">{{mars_data.news_title}}</h4>
         <p>{{mars_data.news_p}}</p>
@@ -29,11 +29,11 @@
     </div>
 
     <div class="row"  style="margin-bottom: 30px">
-      <div class="col-sm-7">
+      <div class="col-md-7 col-sm-7 col-xs-12">
         <h2 class="heading">Featured Mars Image</h2>
-        <img src={{mars_data.featured_image_url}} alt="Featured Image" class="img-fluid">
+        <img src={{mars_data.featured_image_url}} alt="Featured Image" class="img-responsive">
       </div>
-      <div class="col-sm-5">
+      <div class="col-md-5 col-sm-5 col-xs-12">
         <h4 class="heading" style="margin-bottom: 10px; margin-top: 30px">Mars Facts</h4>
         <div class="table-responsive table-striped">
           <table>{{mars_data.mars_facts|safe}}</table>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-md-12 col-sm-12 col-xs-12">
         <h2 class="heading" style="text-align: center">Mars Hemispheres</h2>
         <hr>
       </div>
@@ -51,36 +51,36 @@
 
     <div class="row">
 
-      <div class="col-sm-3">
+      <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="thumbnail">
-          <img src="{{mars_data.hemisphere_image_urls.0.img_url}}" alt="{{mars_data.hemisphere_image_urls.0.title}}">
+          <img src="{{mars_data.hemisphere_image_urls.0.img_url}}" alt="{{mars_data.hemisphere_image_urls.0.title}}" class="img-responsive">
           <div class="caption">
             <h3>{{mars_data.hemisphere_image_urls.0.title}}</h3>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="thumbnail">
-          <img src="{{mars_data.hemisphere_image_urls.1.img_url}}" alt="{{mars_data.hemisphere_image_urls.1.title}}">
+          <img src="{{mars_data.hemisphere_image_urls.1.img_url}}" alt="{{mars_data.hemisphere_image_urls.1.title}}" class="img-responsive">
           <div class="caption">
             <h3>{{mars_data.hemisphere_image_urls.1.title}}</h3>
           </div>
         </div>
       </div>
       
-      <div class="col-sm-3">
+      <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="thumbnail">
-          <img src="{{mars_data.hemisphere_image_urls.2.img_url}}" alt="{{mars_data.hemisphere_image_urls.2.title}}">
+          <img src="{{mars_data.hemisphere_image_urls.2.img_url}}" alt="{{mars_data.hemisphere_image_urls.2.title}}" class="img-responsive">
           <div class="caption">
             <h3>{{mars_data.hemisphere_image_urls.2.title}}</h3>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3 col-sm-3 col-xs-12">
         <div class="thumbnail">
-          <img src="{{mars_data.hemisphere_image_urls.3.img_url}}" alt="{{mars_data.hemisphere_image_urls.3.title}}">
+          <img src="{{mars_data.hemisphere_image_urls.3.img_url}}" alt="{{mars_data.hemisphere_image_urls.3.title}}" class="img-responsive">
           <div class="caption">
             <h3>{{mars_data.hemisphere_image_urls.3.title}}</h3>
           </div>
