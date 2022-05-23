@@ -4,8 +4,9 @@ import scrape_mars
 
 app = Flask(__name__)
 
-# Set inline mongo connection
-mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_scrape")
+# Use flask_pymongo to set up mongo connection
+app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_scraps"
+mongo = PyMongo(app)
 
 # create a listings collection, lazy loading
 mars_collection = mongo.db.mars_data
@@ -26,7 +27,6 @@ def scraper():
     mars_collection.update_one({}, {"$set": mars_data_scrape}, upsert=True)
     # return a message to our page so we know it was successful.
     return redirect("/", code=302)
-
 
 if __name__ == "__main__":
     app.run(debug=True)
