@@ -3,17 +3,25 @@
 Homework for Boot Camp Week 12: Web Scraping and MongoDB; Submitted by Corey Lawson-Enos
 
 ## Summary
-* 
-* HTML webpages that compare geographical latitude's effect on four weather categories--Temperature, Humidity, Cloudiness, and Wind Speed. 
-* Includes Northern/Southern hemisphere comparison, visualizations, and source data for inspection.
+* Web application that scrapes four websites for current Mars news, facts, and imagery, and displays the information in a single HTML page (see also Sources below.)
 
 ## Technologies
 HTML, MongoDB, Flask, Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-## URL
+## API Access
 
-* https://clawson13.github.io/Web-Design-Challenge/
+* Open app.py file from Terminal/Command Prompt: python app.py
+* Copy running URL (screenshot below), paste to browser:
+
+![Terminal Example](Missions_to_Mars/images/terminal_example.png)
 
 ## Landing Preview
-Missions_to_Mars/images/terminal_example.png
-![Landing Preview](assets/images/landing_preview.png)
+
+![Landing Preview](Missions_to_Mars/images/index_screenshot.png)
+
+## Sources
+
+* Mars Planet Science: https://redplanetscience.com/
+* Caltech Jet Propulsion Laboratory Images: https://spaceimages-mars.com/
+* Galaxy Facts: https://galaxyfacts-mars.com/
+* GUSS Science Center: https://marshemispheres.com/
