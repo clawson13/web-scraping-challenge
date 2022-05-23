@@ -1,5 +1,3 @@
-# web-scraping-challenge
-
 # Mission to Mars: Web Scraping Challenge
 
 Homework for Boot Camp Week 12: Web Scraping and MongoDB; Submitted by Corey Lawson-Enos
