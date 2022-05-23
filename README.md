@@ -15,5 +15,5 @@ HTML, MongoDB, Flask, Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 * https://clawson13.github.io/Web-Design-Challenge/
 
 ## Landing Preview
-
+Missions_to_Mars/images/terminal_example.png
 ![Landing Preview](assets/images/landing_preview.png)
