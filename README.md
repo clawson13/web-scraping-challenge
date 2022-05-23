@@ -16,7 +16,6 @@ HTML, MongoDB, Flask, Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 ![Terminal Example](Missions_to_Mars/images/terminal_example.png)
 
 ## Landing Preview
-
 ![Landing Preview](Missions_to_Mars/images/index_screenshot.png)
 
 ## Sources
