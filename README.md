@@ -8,7 +8,7 @@ Homework for Boot Camp Week 12: Web Scraping and MongoDB; Submitted by Corey Law
 ## Technologies
 HTML, MongoDB, Flask, Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-## API Access
+## Web Application Access
 
 * Open app.py file from Terminal/Command Prompt: python app.py
 * Copy running URL (screenshot below), paste to browser:
