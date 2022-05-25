@@ -32,8 +32,11 @@ def scrape():
     # Link to website
     url = 'https://redplanetscience.com/#'
     browser.visit(url)
+    
+    # Since redplanetscience.com has slow load, institute short wait to ensure full html appears
+    browser.is_element_present_by_css('div.list_text', wait_time=5)
 
-
+    
     # In[4]:
 
 
@@ -41,8 +44,8 @@ def scrape():
     html = browser.html
     soup = BeautifulSoup(html, 'html.parser')
 
-    news_title = soup.find('div', class_='content_title').text
-    news_p = soup.find('div', class_='article_teaser_body').text
+    news_title = soup.find('div', class_='content_title').text.strip()
+    news_p = soup.find('div', class_='article_teaser_body').text.strip()
 
     print(news_title)
     print(news_p)
