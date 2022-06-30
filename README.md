@@ -1,12 +1,12 @@
 # Mission to Mars: Web Scraping Challenge
 
-Homework for Boot Camp Week 12: Web Scraping and MongoDB; Submitted by Corey Lawson-Enos
+Prepared by Corey Lawson-Enos
 
 ## Summary
 * Web application that scrapes four websites for current Mars news, facts, and imagery, and displays the information in a single HTML page (see also Sources below.)
 
 ## Technologies
-HTML, MongoDB, Flask, Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+HTML, MongoDB, Flask, Pandas, PyMongo, Jupyter Notebook, BeautifulSoup, and Requests/Splinter.
 
 ## Web Application Access
 
